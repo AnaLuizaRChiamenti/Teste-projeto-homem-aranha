@@ -1,0 +1,222 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.cidade
+
+/* div */
+    {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cidade {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+}
+
+.portal
+
+/* div */
+    {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(-50px - 100px);
+    z-index: 999;
+}
+
+#portal {
+    width: 120rem;
+    height: 70rem;
+    position: absolute;
+    display: flex;
+}
+
+.cidade-redonda
+
+/* div */
+    {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(-50px - 100px);
+}
+
+#cidade-redonda {
+    width: 80rem;
+    height: 52rem;
+    position: absolute;
+    display: flex;
+    right: 295px;
+}
+
+.logo
+
+/* div */
+    {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 9999;
+    animation: logo 2s ;
+}
+
+@keyframes logo {
+    to {
+        top: 0px;
+    }
+    from {
+        top: 200px;
+    }
+}
+
+.tobey
+
+/* div */
+    {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 999;
+    right: 100px;
+    animation: tobey 2s;
+}
+
+@keyframes tobey {
+    0% {
+        right: 50px;
+    }
+}
+
+#tobey {
+    width: 700px;
+    height: 700px;
+}
+
+.tom
+
+/* div */
+    {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 999;
+    left: 150px;
+    animation: tom 3s;
+}
+
+@keyframes tom {
+    0% {
+        left: 50px;
+    }
+}
+
+#tom {
+    width: 72rem;
+    height: 600px;
+}
+
+.andrew
+
+/* div */
+    {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    bottom: 250px;
+    z-index: 99;
+    animation: andrew 4s;
+}
+
+@keyframes andrew {
+    0% {
+        bottom: 900px;
+    }
+
+}
+
+#andrew {
+    width: 400px;
+    height: 800px;
+}
+
+.faiscas
+
+/* div */
+    {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    animation: faiscas 2s infinite;
+}
+
+@keyframes faiscas {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+
+}
+
+#faiscas {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
