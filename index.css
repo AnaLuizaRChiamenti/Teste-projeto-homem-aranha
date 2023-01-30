@@ -90,17 +90,96 @@ body {
     justify-content: center;
     align-items: flex-end;
     z-index: 9999;
-    animation: logo 2s ;
+    animation: logo 2s;
 }
 
 @keyframes logo {
     to {
         top: 0px;
     }
+
     from {
         top: 200px;
     }
 }
+
+.data /* div */ {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#data {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 9999;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 30px;
+    animation: data 2s;
+}
+
+@keyframes data {
+    to {
+        top: 0px;
+    }
+
+    from {
+        top: 200px;
+    }
+
+    0% {
+        color: white;
+    }
+
+    10% {
+        color: rgb(147, 0, 0);
+    }
+
+    20% {
+        color: white;
+    }
+    
+    30% {
+        color: rgb(147, 0, 0);
+    }
+
+    40% {
+        color: white;
+    }
+
+    50% {
+        color: rgb(147, 0, 0);
+    }
+
+    60% {
+        color: white
+    }
+
+    70% {
+        color: rgb(147, 0, 0);
+    }
+    
+    80% {
+        color: white;
+    }
+
+    90% {
+        color: rgb(147, 0, 0)
+    }
+
+    100% {
+        color: white;
+    }
+}
+
 
 .tobey
 
@@ -174,7 +253,6 @@ body {
     0% {
         bottom: 900px;
     }
-
 }
 
 #andrew {
@@ -208,8 +286,6 @@ body {
     100% {
         opacity: 0;
     }
-
-
 }
 
 #faiscas {
